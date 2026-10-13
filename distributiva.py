@@ -1,6 +1,7 @@
 """Executa e compara os dois lados da propriedade distributiva."""
 
 from contador import ContadorOperacoes
+from visualizacao_resultados import desenhar_comparacao_resultados
 from matrizes import (
     exibir_matriz,
     matrizes_iguais,
@@ -63,6 +64,15 @@ def executar(A, B, C, mostrar_matrizes=True):
     print(
         "\nNota: o custo é um modelo simplificado (1 unidade por soma e por "
         "multiplicação); não é uma medição real dos ciclos da CPU."
+    )
+
+    # Compara visualmente as linhas correspondentes e mostra a diferença
+    # entre as duas matrizes resultado.
+    desenhar_comparacao_resultados(
+        resultado_esquerdo,
+        resultado_direito,
+        contador_esquerdo,
+        contador_direito,
     )
 
 
