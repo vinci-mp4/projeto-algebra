@@ -5,6 +5,9 @@ Além disso o código gera uma visualização dos vetores gerados.
 
 Membros:
 Vinícius Lourenço Rangel
+
 Vinícius Figueiredo
+
 Vinícius Taveira
+
 João Victor Pinheiro
