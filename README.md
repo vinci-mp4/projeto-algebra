@@ -11,3 +11,5 @@ Vinícius Figueiredo
 Vinícius Taveira
 
 João Victor Pinheiro
+
+Thales Montenegro
